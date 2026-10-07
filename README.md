@@ -269,37 +269,33 @@ The Institute uses separate repositories when differences in function, authority
 
 The intended repository architecture may progressively include:
 
+```text
 ARCHITEKTONIA
 │
-
 ├── architektonia
 │   PUBLIC
 │   Institutional public entry point
 │
-
 ├── env-1
 │   PRIVATE
 │   Computation, simulation and experimental infrastructure
 │
-
 ├── env-2
 │   PRIVATE
 │   Exploration and experimental scientific memory
 │
-
 ├── env-3
 │   PRIVATE
 │   Institutionalization infrastructure
 │
-
 ├── scientific-models
 │   PUBLIC WHEN QUALIFIED
 │   Published scientific models and reproducibility materials
 │
-
 └── scientific-publications
-│   PUBLIC
-│   Papers, reports and associated public research materials
+   PUBLIC
+   Papers, reports and associated public research materials
+```
 
 This structure is indicative rather than permanent. Repositories will be created when their functional or security boundaries justify their existence.
 
