@@ -129,15 +129,27 @@ The governing principle is:
 
 # 5. Security Reporting Channel
 
-Until Architektonia establishes a dedicated security reporting channel, **do not publicly disclose potentially exploitable vulnerabilities**.
+For security vulnerabilities affecting this repository, Architektonia uses **GitHub Private Vulnerability Reporting** as its official reporting channel.
 
-If GitHub private vulnerability reporting is enabled for the affected repository, it should be preferred for repository-specific vulnerabilities.
+Potentially exploitable vulnerabilities should be reported through the repository's **Report a vulnerability** function under **Security and quality → Advisories**.
 
-Otherwise, potential reporters should use an explicitly designated private contact method once published by the Institute.
+```text
+SECURITY CONCERN
+      ↓
+REPORT A VULNERABILITY
+      ↓
+PRIVATE GITHUB REPORT
+      ↓
+ARCHITEKTONIA SECURITY REVIEW
+```
 
-If no appropriate private reporting channel is available, avoid publishing exploit details publicly while seeking a safe means of contacting the Institute.
+Do **not** create a public GitHub issue, pull request, discussion, or comment containing exploitable vulnerability information.
 
-The absence of a convenient reporting mechanism does not make public disclosure of immediately exploitable information safe.
+Reports should contain enough information to allow Architektonia to understand, reproduce where appropriate, assess, and respond to the issue, while avoiding unnecessary disclosure of secrets, confidential information, or unrelated sensitive data.
+
+For security matters that cannot appropriately be reported through GitHub Private Vulnerability Reporting, an additional private institutional security contact may be established by Architektonia in the future.
+
+The absence of an alternative reporting channel does not make public disclosure of immediately exploitable information appropriate.
 
 ---
 
